@@ -17,7 +17,6 @@ const list = () => {
       getCompany()
         .then((data) => {
           setListado(data.maincompanies)
-          console.log(data)
         });
     } catch (e) {
       console.log(e);
